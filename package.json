@@ -1,0 +1,23 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db": "json-server -w db.json",
+    "tunnel": "ngrok http 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisKeeWord/react-native-json-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisKeeWord/react-native-json-server/issues"
+  },
+  "homepage": "https://github.com/thisKeeWord/react-native-json-server#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
